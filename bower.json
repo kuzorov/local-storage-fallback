@@ -1,0 +1,21 @@
+{
+  "name": "localStorageFallback",
+  "authors": [
+    "Evgeniy Kuzorov <kuzorov@gmail.com>"
+  ],
+  "description": "Library that provides fallback to vanilla js objects if localStorage unavailable",
+  "main": "localStorageFallback.min.js",
+  "keywords": [
+    "js",
+    "localStorage"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
