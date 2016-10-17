@@ -1,10 +1,11 @@
 {
-  "name": "localStorageFallback",
+  "name": "local-storage-fallback",
   "authors": [
     "Evgeniy Kuzorov <kuzorov@gmail.com>"
   ],
+  "version": "1.0",
   "description": "Library that provides fallback to vanilla js objects if localStorage unavailable",
-  "main": "localStorageFallback.min.js",
+  "main": "localStorageFallback.js",
   "keywords": [
     "js",
     "localStorage"
