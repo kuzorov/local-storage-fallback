@@ -25,7 +25,7 @@
          * If Storage does not exist we create an empty object.
          * */
         if (window.Storage && window.localStorage) {
-            storage = Object.create(window.Storage.prototype);
+            storage = window.Storage.prototype;
         } else {
             // We don't bother implementing a fake Storage object
             window.localStorage = {};
