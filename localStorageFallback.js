@@ -25,7 +25,7 @@
          * If Storage does not exist we create an empty object.
          * */
         if (window.Storage && window.localStorage) {
-            storage = window.Storage.prototype;
+            storage = Object.create(window.Storage.prototype);
         } else {
             // We don't bother implementing a fake Storage object
             window.localStorage = {};
@@ -45,7 +45,7 @@
          * @param {string} newValue
          */
         var dispatchStorageEvent = function (key, newValue) {
-            var oldValue = (key == null) ? null : storage.getItem(key); // `==` to match both null and undefined
+            var oldValue = (!key) ? null : storage.getItem(key); // `==` to match both null and undefined
             var url = location.href.substr(location.origin.length);
             var storageEvent = document.createEvent('StorageEvent'); // For IE
 
