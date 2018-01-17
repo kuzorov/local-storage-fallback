@@ -1,0 +1,25 @@
+{
+  "name": "local-storage-fallback",
+  "version": "1.0.0",
+  "description": "Polyfill for webstorage even in privat tabs, etc",
+  "main": "localStorageFallback.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kuzorov@github.com/kuzorov/local-storage-fallback.git"
+  },
+  "keywords": [
+    "storage",
+    "localStorage",
+    "sessionStorage",
+    "polyfill"
+  ],
+  "author": "Evgeniy Kuzorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuzorov/local-storage-fallback/issues"
+  },
+  "homepage": "https://github.com/kuzorov/local-storage-fallback#readme"
+}
